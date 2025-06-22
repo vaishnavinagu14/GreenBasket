@@ -9,7 +9,8 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <img src="/logo1.png" className='hero-logo'/>
+          <img src="/logo1.png"  alt="logopicture"
+          className='hero-logo'/>
           <h1>Welcome to GreenBasket</h1>
           <p>Your trusted online grocery partner. Freshness delivered daily right to your doorstep.</p>
           <a href="/Shop" className="shop-btn">Shop Now</a>
@@ -78,9 +79,9 @@ const Home = () => {
       <footer className="footer">
         <p>&copy; 2025 GreenBasket. All rights reserved.</p>
         <div className="footer-links">
-          <a href="#">Contact</a>
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
+          <a href="contact">Contact</a>
+          <a href="contact">Privacy</a>
+          <a href="contact">Terms</a>
         </div>
       </footer>
     </div>
